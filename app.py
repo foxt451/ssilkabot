@@ -1,8 +1,5 @@
 async def on_startup(dp):
-    import filters
-    import middlewares
-    filters.setup(dp)
-    middlewares.setup(dp)
+    pass
 
 if __name__ == '__main__':
     from aiogram import executor
