@@ -1,14 +1,6 @@
-import os
+BOT_TOKEN = '1498153243:AAEzL4Hn-LarAkHyN7n9sBIQYUzzO7MYrbg'
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-BOT_TOKEN = str(os.getenv("BOT_TOKEN"))
-admins = [
-]
-
-ip = os.getenv("ip")
+ip = '127.0.0.1'
 
 aiogram_redis = {
     'host': ip,
